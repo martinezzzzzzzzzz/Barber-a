@@ -1,0 +1,24 @@
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-menu {
+    height: 60px;
+}
+
+.nav-item {
+    width: 150px;
+    height: 60px;
+    margin-right: 30px;
+}
+
+.reservation-button {
+    width: 200px;
+    height: 60px;
+}
+.text-section {
+    width: 1200px;
+    height: 400px;
+    font-size: 20px;
+}

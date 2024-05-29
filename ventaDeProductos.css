@@ -1,0 +1,165 @@
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-menu {
+    height: 60px;
+}
+
+.nav-item {
+    width: 150px;
+    height: 60px;
+    margin-right: 30px;
+}
+
+.reservation-button {
+    width: 200px;
+    height: 60px;
+}
+
+
+#Champu{
+  height: 300px;
+  width: 300px;
+}
+
+
+
+#imagenes{
+    height: 300px;
+    width: 300px;
+    max-width: 100%; /* Ajustar imagen al tamaño del contenedor */
+    max-height: 100%; /* Ajustar imagen al tamaño del contenedor */
+  }
+
+
+ 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.sales-menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.sales-item {
+    background-color: #ffffffca;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 30%;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.sales-item:hover {
+    transform: translateY(-10px);
+}
+.sales-item h3 {
+    margin: 20px 0 10px;
+}
+.sales-item p {
+    padding: 0 20px 20px;
+    color: #777;
+}
+.sales-item .price {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.sales-item button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 50px 200px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.sales-item button:hover {
+    background-color: #0056b3;
+}
+
+
+.container2 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .cart {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .item img {
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  .info {
+    flex-grow: 1;
+  }
+  
+  .total {
+    border-top: 2px solid #333;
+    padding-top: 10px;
+    text-align: right;
+  }
+  
+  .total h3 {
+    margin: 0;
+  }
+
+  .descripcion{
+    font-size: 18px
+  }
+
+  #carritob{
+    padding: 60px 200px;
+    background-color: #007bff;
+    color: #fff;
+  }
+
+#imgcarrito{
+    width: 1920px;
+    height: 400px ;
+}
+   
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.footer ul li {
+    margin: 0 10px;
+}
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
